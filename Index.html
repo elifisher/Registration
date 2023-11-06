@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Registration form</title>
 </head>
+
 <body>
-  
+    <h1>Registration appointment</h1>
+    <div class="container">
+        <form>
+            <h2>Registration Form</h2>
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="firstName">
+                    First Name:
+                    <input type="text" name="firstName" id="firstName" required placeholder="First Name">
+                </label>
+                <label for="lastName">
+                    Last Name:
+                    <input type="text" name="lastName" id="lastName" required placeholder="Last Name">
+                </label>
+                <label for="Email">
+                    Email:
+                    <input type="Email" name="Email" id="Email" required placeholder="Email">
+                </label>
+            </fieldset>
+            
+            <input class="submit" type="submit" value="submit">
+        </form>
+    </div>
 </body>
+
 </html>
